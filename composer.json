@@ -15,10 +15,10 @@
     "prefer-stable": true,
     "scripts": {
         "post-install-cmd": [
-            "php -rf \"symlink('vendor/laramate/ddev-database-sync/src/db-to-local.sh', '.ddev/commands/host/db-to-local');\""
+            "php -r \"symlink('vendor/laramate/ddev-database-sync/src/db-to-local.sh', '.ddev/commands/host/db-to-local');\""
         ],
         "post-update-cmd": [
-            "php -rf \"symlink('vendor/laramate/ddev-database-sync/src/db-to-local.sh', '.ddev/commands/host/db-to-local');\""
+            "php -r \"symlink('vendor/laramate/ddev-database-sync/src/db-to-local.sh', '.ddev/commands/host/db-to-local');\""
         ]
     }
 }
