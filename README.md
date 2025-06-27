@@ -7,10 +7,12 @@ Copies production database data from a remote server to local workspace.
 ## Setup
 You need to add following variables to you local .env file:
 
-- REMOTE_USER
-- REMOTE_HOST
-- REMOTE_PATH_TO_PROJECT
-- REMOTE_DB_DATABASE
+```dotenv
+REMOTE_USER=""
+REMOTE_HOST=""
+REMOTE_PATH_TO_PROJECT=""
+REMOTE_DB_DATABASE=""
+```
 
 Use the following command to link the script to the right place:
 ```bash
