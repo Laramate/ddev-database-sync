@@ -12,13 +12,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "scripts": {
-        "post-install-cmd": [
-            "php -r \"symlink('vendor/laramate/ddev-database-sync/src/db-to-local.sh', '.ddev/commands/host/db-to-local');\""
-        ],
-        "post-update-cmd": [
-            "php -r \"symlink('vendor/laramate/ddev-database-sync/src/db-to-local.sh', '.ddev/commands/host/db-to-local');\""
-        ]
-    }
+    "prefer-stable": true
 }
