@@ -1,0 +1,16 @@
+{
+    "name": "laramate/ddev-database-sync",
+    "description": "Laramate DDEV Database Sync",
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Laramate",
+            "email": "coding@laramate.de",
+            "homepage": "https://www.laramate.de/",
+            "role": "Team"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
